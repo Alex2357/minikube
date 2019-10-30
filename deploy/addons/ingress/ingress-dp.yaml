@@ -74,9 +74,9 @@ spec:
                 fieldPath: metadata.namespace
         ports:
         - containerPort: 80
-          hostPort: 80
+          hostPort: 9080
         - containerPort: 443
-          hostPort: 443
+          hostPort: 9443
         # (Optional) we expose 18080 to access nginx stats in url /nginx-status
         - containerPort: 18080
           hostPort: 18080
